@@ -19,7 +19,8 @@ enum ImagenError: LocalizedError {
 
 class ImagenService {
     private let baseURL = "https://api.unsplash.com/photos/random"
-    private let apiKey = "XLuIx-1Y6a6gkeec75cAtpC44ZzliXf1yesuSA2eoWM"
+    // Replace your actual Unsplash API key here
+    private let apiKey = "YOUR_UNSPLASH_API_KEY"
     
     func generateImage(from prompt: String, completion: @escaping (Result<UIImage, ImagenError>) -> Void) {
         var urlComponents = URLComponents(string: baseURL)!
