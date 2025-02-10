@@ -1,0 +1,36 @@
+{
+    "project": {
+        "name": "Imagen iOS App",
+        "description": "An iOS application for generating images using Google's Imagen model"
+    },
+    "rules": {
+        "architecture": {
+            "pattern": "MVVM (Model-View-ViewModel)",
+            "description": "Using MVVM architecture for better separation of concerns"
+        },
+        "directory_structure": {
+            "App": "Contains app delegate and main entry point",
+            "Scenes": "Contains different screens/features of the app",
+            "Models": "Data models and entities",
+            "Services": "Network and other services",
+            "Utils": "Utility classes and extensions",
+            "Resources": "Assets and configuration files"
+        },
+        "naming_conventions": {
+            "files": "PascalCase",
+            "variables": "camelCase",
+            "functions": "camelCase",
+            "classes": "PascalCase",
+            "protocols": "PascalCase"
+        },
+        "code_style": {
+            "indentation": "4 spaces",
+            "max_line_length": 120,
+            "documentation": "Required for public interfaces"
+        },
+        "git": {
+            "branch_naming": "feature/, bugfix/, hotfix/",
+            "commit_message": "feat:, fix:, docs:, style:, refactor:, test:, chore:"
+        }
+    }
+} 
